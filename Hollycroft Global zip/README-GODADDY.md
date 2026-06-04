@@ -129,3 +129,5 @@ Use `sitemap-template.xml` when the final domain is live:
 ## Security
 
 Keep HTTPS enabled in GoDaddy. Upload `.htaccess` if the hosting plan supports it. If GoDaddy manages headers elsewhere, copy the values from `.htaccess` into that configuration area.
+
+Deploy refresh
