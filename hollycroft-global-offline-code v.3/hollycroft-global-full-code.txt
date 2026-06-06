@@ -1,0 +1,1850 @@
+
+===== index.html =====
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'; worker-src 'none';" />
+  <meta name="robots" content="index,follow" />
+  <title>Hollycroft Global</title>
+  <meta name="description" content="Hollycroft Global is a marketing agency partnering with brands shaping the future." data-meta-content="pageDescription" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="site.css" />
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="container">
+      <a href="#" class="wordmark">
+        <span data-content="brandName">Hollycroft Global</span>
+        <img class="wordmark-tree" src="tree-logo.png" alt="" />
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#top" data-content="nav.about" data-section-link="top">ABOUT</a>
+        <a href="#work" data-content="nav.work" data-section-link="work">WORK</a>
+        <a href="#insights" data-content="nav.insights" data-section-link="insights">INSIGHTS</a>
+        <a href="#contact" data-content="nav.contact" data-section-link="contact">CONTACT</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="section hero" id="top">
+    <p class="hero-lead" data-content="hero.lead">We're a marketing agency partnering with brands shaping the future.</p>
+    <div class="container">
+      <div class="hero-details">
+        <p data-content="hero.detailOne">We develop and execute integrated strategies across PR, marketing, paid media, SEO, AEO, GEO, generative AI, and digital communications that help brands build influence, accelerate growth, and stay ahead of change. Our team is focused on the industries driving tomorrow, including financial services, banking, digital assets, technology, travel, events, and consumer brands.</p>
+        <p data-content="hero.detailTwo">Hollycroft Global brings together decades of experience across media, communications, marketing, and data science. Combining strategic thinking with data-driven intelligence and emerging technologies, we help organisations turn ambition into measurable impact.</p>
+      </div>
+      <a class="btn" href="#contact" data-content="buttons.getInTouch">Get in touch</a>
+    </div>
+  </section>
+
+  <!-- ============ REVIEWS ============ -->
+  <section class="section reviews" aria-label="Client reviews">
+    <div class="review-viewport">
+      <div class="review-track">
+        <article class="review" data-review-index="0">
+          <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p class="review-attribution" data-review-field="attribution">COO, Fox Sports</p>
+          <p class="review-text" data-review-field="quote">&ldquo;A trusted and valued partner.&rdquo;</p>
+        </article>
+
+        <article class="review" data-review-index="1">
+          <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p class="review-attribution" data-review-field="attribution">CEO, Bites Baking School</p>
+          <p class="review-text" data-review-field="quote">&ldquo;Hollycroft Global elevated our brand exponentially through smart strategy and flawless execution.&rdquo;</p>
+        </article>
+
+        <article class="review" data-review-index="2">
+          <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p class="review-attribution" data-review-field="attribution">Global Sales Director, Maritim Hotels</p>
+          <p class="review-text" data-review-field="quote">&ldquo;The gold standard in strategic communication.&rdquo;</p>
+        </article>
+
+        <article class="review" data-review-index="3">
+          <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p class="review-attribution" data-review-field="attribution">CMO, Uhuru Design</p>
+          <p class="review-text" data-review-field="quote">&ldquo;They opened doors we couldn't have opened on our own.&rdquo;</p>
+        </article>
+
+        <article class="review" data-review-index="4">
+          <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p class="review-attribution" data-review-field="attribution">Founder, Celebration Creation</p>
+          <p class="review-text" data-review-field="quote">&ldquo;We've worked with several agencies. Hollycroft Global is the best by far.&rdquo;</p>
+        </article>
+      </div>
+    </div>
+
+    <div class="review-dots" aria-label="Choose a review">
+      <button class="review-dot" type="button" aria-label="Show review 1" aria-current="true"></button>
+      <button class="review-dot" type="button" aria-label="Show review 2" aria-current="false"></button>
+      <button class="review-dot" type="button" aria-label="Show review 3" aria-current="false"></button>
+      <button class="review-dot" type="button" aria-label="Show review 4" aria-current="false"></button>
+      <button class="review-dot" type="button" aria-label="Show review 5" aria-current="false"></button>
+    </div>
+  </section>
+
+  <!-- ============ FEATURES (optional — delete this whole section if not needed) ============ -->
+  <section class="section features">
+    <div class="container">
+      <div class="grid">
+        <div class="card" data-card-index="0">
+          <h3 data-card-field="title">Who We Are</h3>
+          <p data-card-field="copy">At Hollycroft Global, we believe meaningful growth begins with understanding. Our clients know us for our strategic thinking, straightforward advice, and unwavering commitment to delivering exceptional results. We combine expertise across marketing, public relations, paid media, SEO, AEO, GEO, generative AI, and communications with data-driven decision-making...</p>
+          <a class="card-more" href="#contact" data-content="buttons.forMore">For more</a>
+        </div>
+        <div class="card" data-card-index="1">
+          <h3 data-card-field="title">Who We Work With</h3>
+          <p data-card-field="copy">We partner with ambitious organisations across a broad range of industries, from corporate and consumer brands to banking and financial services, technology, digital assets, travel and tourism, events, exhibitions, and lifestyle. Combining deep sector expertise with data-driven intelligence, generative AI, advanced analytics, and emerging technologies, we help clients navigate complexity, anticipate change, and uncover new opportunities for growth. Operating at the forefront of marketing, communications, and digital discovery, we ensure our clients remain visible, influential, and positioned...</p>
+          <a class="card-more" href="#contact" data-content="buttons.forMore">For more</a>
+        </div>
+        <div class="card" data-card-index="2">
+          <h3 data-card-field="title">What We Do</h3>
+          <p data-card-field="copy">We design and deliver integrated marketing, communications, and reputation strategies that drive measurable business outcomes. Combining public relations, paid media, content, search, AEO, GEO, generative AI, and data-driven insights, we help organisations build visibility, shape perception, engage audiences, and accelerate growth across both B2B and consumer markets.</p>
+          <a class="card-more" href="#contact" data-content="buttons.forMore">For more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STRATEGY GRAPHIC ============ -->
+  <section class="strategy-graphic" aria-label="How Hollycroft Global creates impact">
+    <img src="strategy-pillars.png" alt="Leverage Data, Shape Perception, Build Influence, Drive Revenue" />
+  </section>
+
+  <!-- ============ WORK LOGOS ============ -->
+  <section class="section work-showcase" id="work" aria-labelledby="work-showcase-title">
+    <div class="container">
+      <div class="work-card">
+        <h2 class="work-heading" id="work-showcase-title" data-content="work.heading">Work</h2>
+        <div class="brand-grid" id="brand-grid" aria-label="Selected brand logos"></div>
+        <button class="experience-toggle" id="experience-toggle" type="button" aria-expanded="false" aria-controls="brand-grid" data-content="buttons.viewExperience" hidden>VIEW EXPERIENCE</button>
+      </div>
+
+      <div class="case-studies-card">
+        <div class="case-studies-grid" id="case-studies-grid" aria-label="Case study thumbnails"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ INSIGHTS ============ -->
+  <section class="section insights" id="insights">
+    <div class="container">
+      <div class="insights-header">
+        <h2 class="insights-heading" data-content="insights.heading">Latest insights, wins &amp; opinions</h2>
+        <button class="insights-pill insights-toggle" type="button" aria-expanded="false" aria-controls="insights-list" data-content="buttons.viewAllInsights">VIEW ALL INSIGHTS</button>
+      </div>
+
+      <div class="insights-list" id="insights-list">
+        <article class="insights-card" data-insight-index="0">
+          <h3 data-insight-field="title"></h3>
+          <p data-insight-field="preview"></p>
+          <p class="insights-expanded" id="insight-1" data-insight-field="expanded" hidden></p>
+          <button class="insights-more" type="button" aria-expanded="false" aria-controls="insight-1" data-read-more-button>READ MORE</button>
+          <div class="insights-meta" data-insight-field="meta"></div>
+        </article>
+
+        <article class="insights-card additional-insight" data-insight-index="1" hidden>
+          <h3 data-insight-field="title"></h3>
+          <p data-insight-field="preview"></p>
+          <p class="insights-expanded" id="insight-2" data-insight-field="expanded" hidden></p>
+          <button class="insights-more" type="button" aria-expanded="false" aria-controls="insight-2" data-read-more-button>READ MORE</button>
+          <div class="insights-meta" data-insight-field="meta"></div>
+        </article>
+
+        <article class="insights-card additional-insight" data-insight-index="2" hidden>
+          <h3 data-insight-field="title"></h3>
+          <p data-insight-field="preview"></p>
+          <p class="insights-expanded" id="insight-3" data-insight-field="expanded" hidden></p>
+          <button class="insights-more" type="button" aria-expanded="false" aria-controls="insight-3" data-read-more-button>READ MORE</button>
+          <div class="insights-meta" data-insight-field="meta"></div>
+        </article>
+
+        <article class="insights-card additional-insight" data-insight-index="3" hidden>
+          <h3 data-insight-field="title"></h3>
+          <p data-insight-field="preview"></p>
+          <p class="insights-expanded" id="insight-4" data-insight-field="expanded" hidden></p>
+          <button class="insights-more" type="button" aria-expanded="false" aria-controls="insight-4" data-read-more-button>READ MORE</button>
+          <div class="insights-meta" data-insight-field="meta"></div>
+        </article>
+
+        <article class="insights-card additional-insight" data-insight-index="4" hidden>
+          <h3 data-insight-field="title"></h3>
+          <p data-insight-field="preview"></p>
+          <p class="insights-expanded" id="insight-5" data-insight-field="expanded" hidden></p>
+          <button class="insights-more" type="button" aria-expanded="false" aria-controls="insight-5" data-read-more-button>READ MORE</button>
+          <div class="insights-meta" data-insight-field="meta"></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer" id="contact">
+    <div class="container">
+      <div class="contact-quote">
+        <span class="quote-mark" aria-hidden="true">&ldquo;</span>
+        <h2 class="contact-heading"><span data-content="contact.headingLineOne">Where insight</span><br /><span data-content="contact.headingLineTwo">becomes impact</span></h2>
+        <span class="quote-mark quote-close" aria-hidden="true">&rdquo;</span>
+      </div>
+
+      <form class="contact-form" name="contact" method="post" action="/thank-you.html" data-netlify="true" netlify-honeypot="website">
+        <input type="hidden" name="form-name" value="contact" />
+        <div class="form-field honeypot-field" aria-hidden="true">
+          <label for="website">Website</label>
+          <input id="website" name="website" type="text" tabindex="-1" autocomplete="off" />
+        </div>
+
+        <div class="form-field">
+          <label for="first-name" data-content="contact.firstNameLabel">First name*</label>
+          <input id="first-name" name="first-name" type="text" autocomplete="given-name" placeholder="Your first name" data-placeholder-content="contact.firstNamePlaceholder" maxlength="80" required />
+        </div>
+
+        <div class="form-field">
+          <label for="last-name" data-content="contact.lastNameLabel">Last name*</label>
+          <input id="last-name" name="last-name" type="text" autocomplete="family-name" placeholder="Your last name" data-placeholder-content="contact.lastNamePlaceholder" maxlength="80" required />
+        </div>
+
+        <div class="form-field">
+          <label for="email" data-content="contact.emailLabel">Email*</label>
+          <input id="email" name="email" type="email" autocomplete="email" placeholder="example@gmail.com" data-placeholder-content="contact.emailPlaceholder" maxlength="254" required />
+        </div>
+
+        <div class="form-field">
+          <label for="phone" data-content="contact.phoneLabel">Phone number*</label>
+          <div class="phone-row">
+            <label class="screen-reader-text" for="phone-country" data-content="contact.phoneCountryLabel">Country</label>
+            <select id="phone-country" name="phone-country" aria-label="Phone country">
+              <option value="USA" data-content="contact.phoneUsaOption">USA</option>
+              <option value="UK" data-content="contact.phoneUkOption">UK</option>
+            </select>
+            <input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="+1 310 555 1212" data-placeholder-content="contact.phonePlaceholder" maxlength="40" required />
+          </div>
+        </div>
+
+        <div class="form-field form-field-full">
+          <label for="message" data-content="contact.messageLabel">How can we help?*</label>
+          <textarea id="message" name="message" placeholder="Tell us about your idea or project." data-placeholder-content="contact.messagePlaceholder" maxlength="5000" required></textarea>
+        </div>
+
+        <div class="form-field captcha-field">
+          <label for="captcha-answer" data-content="contact.captchaLabel">Security check*</label>
+          <div class="captcha-row">
+            <span class="captcha-question" id="captcha-question" aria-live="polite"></span>
+            <input class="captcha-answer" id="captcha-answer" name="security-check" type="tel" inputmode="numeric" pattern="[0-9]{1,2}" maxlength="2" size="2" autocomplete="off" placeholder="00" data-placeholder-content="contact.captchaPlaceholder" required />
+            <div class="contact-actions">
+              <fieldset class="contact-method">
+                <legend data-content="contact.preferredMethodLabel">Your preferred contact method</legend>
+                <div class="contact-method-options">
+                  <label><input type="radio" name="preferred-contact-method" value="email" checked /> <span data-content="contact.emailOption">Email</span></label>
+                  <label><input type="radio" name="preferred-contact-method" value="call" /> <span data-content="contact.callOption">Call</span></label>
+                </div>
+              </fieldset>
+
+              <button class="contact-submit" id="contact-submit" type="button" data-content="buttons.submit">Say Hello</button>
+            </div>
+          </div>
+          <p class="captcha-error" id="captcha-error" hidden data-content="contact.captchaError">Please answer the security check correctly.</p>
+        </div>
+
+        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+      </form>
+
+      <p class="footer-meta">&copy; <span id="year"></span> <span data-content="legalName">Hollycroft Global LLC</span>. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="site-content.js" defer></script>
+  <script src="app.js" defer></script>
+</body>
+</html>
+
+
+===== thank-you.html =====
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'; worker-src 'none';" />
+  <meta name="robots" content="noindex,follow" />
+  <title>Thank you | Hollycroft Global</title>
+  <meta name="description" content="Thank you for contacting Hollycroft Global." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="site.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html#top" class="wordmark">
+        <span>Hollycroft Global</span>
+        <img class="wordmark-tree" src="tree-logo.png" alt="" />
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html#top">ABOUT</a>
+        <a href="index.html#work">WORK</a>
+        <a href="index.html#insights">INSIGHTS</a>
+        <a href="index.html#contact">CONTACT</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="thank-you-page">
+    <section class="section thank-you-section" aria-labelledby="thank-you-heading">
+      <div class="container thank-you-card">
+        <p class="thank-you-kicker">Message received</p>
+        <h1 id="thank-you-heading">Thank you.</h1>
+        <p>We have received your enquiry and will come back to you shortly.</p>
+        <a class="btn" href="index.html#top">Return to Hollycroft Global</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
+
+
+===== site.css =====
+
+/* =========================================================
+   DESIGN TOKENS — change these to re-skin the whole page.
+   ========================================================= */
+:root {
+  --bg:            #fafafa;
+  --ink:           #111111;
+  --muted:         #555555;
+  --accent:        #dc143c;   /* crimson */
+  --accent-hover:  #a8102f;
+  --footer-bg:     #dc143c;   /* crimson */
+  --footer-ink:    #ffffff;
+  --max-width:     1100px;
+  --pad-x:         clamp(1rem, 4vw, 2.5rem);
+  --radius:        10px;
+  --font:          "Cormorant Garamond", Garamond, Georgia, serif;
+}
+
+/* =========================================================
+   RESET / BASE
+   ========================================================= */
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+[id] { scroll-margin-top: 6.5rem; }
+body {
+  font-family: var(--font);
+  color: var(--ink);
+  background: var(--bg);
+  line-height: 1.55;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+img { max-width: 100%; height: auto; display: block; }
+a { color: inherit; }
+.screen-reader-text {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Reusable centered container */
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding-left: var(--pad-x);
+  padding-right: var(--pad-x);
+}
+
+/* Full-bleed section helper (color fills 100% viewport width) */
+.section {
+  width: 100%;
+  padding-top: clamp(2.5rem, 6vw, 5rem);
+  padding-bottom: clamp(2.5rem, 6vw, 5rem);
+}
+
+/* =========================================================
+   HEADER / NAV  (remove the whole <header> to delete)
+   ========================================================= */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  padding: 1rem 0;
+  border-bottom: 1px solid #eee;
+  background: var(--bg);
+  box-shadow: 0 2px 10px rgba(17, 17, 17, 0.06);
+}
+.site-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.wordmark {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-weight: 700;
+  font-size: clamp(1.75rem, 4vw, 2.8rem);
+  letter-spacing: -0.035em;
+  line-height: 1;
+  text-decoration: none;
+}
+.wordmark-tree {
+  width: clamp(2.4rem, 5vw, 3.6rem);
+  height: auto;
+  flex: 0 0 auto;
+}
+.nav {
+  display: flex;
+  gap: clamp(0.75rem, 2vw, 1.5rem);
+  flex-wrap: wrap;
+}
+.nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+.nav a:hover { color: var(--accent); }
+.nav a[aria-current="location"] {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* =========================================================
+   HERO  (remove the whole <section class="hero"> to delete)
+   ========================================================= */
+.hero-lead {
+  margin: 0;
+  padding: clamp(1.5rem, 4vw, 3rem) max(var(--pad-x), calc((100vw - var(--max-width)) / 2 + var(--pad-x)));
+  color: #fff;
+  background: var(--accent);
+  font-size: clamp(3rem, 7vw, 6.2rem);
+  font-weight: 600;
+  letter-spacing: -0.055em;
+  line-height: 0.96;
+}
+.hero { padding-top: 0; }
+.hero-details {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(1.5rem, 5vw, 4rem);
+  max-width: 54rem;
+  margin: clamp(2.5rem, 6vw, 5rem) 0 0 auto;
+}
+.hero-details p {
+  margin: 0;
+  color: var(--ink);
+  font-size: clamp(1.15rem, 2vw, 1.45rem);
+  font-weight: 600;
+  line-height: 1.2;
+}
+.hero .btn {
+  display: table;
+  margin: 2rem auto 0;
+}
+.btn {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  text-decoration: none;
+  padding: 0.9rem 1.6rem;
+  border-radius: var(--radius);
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background-color 0.15s ease;
+  min-height: 44px;       /* touch target */
+  line-height: 1.2;
+}
+.btn:hover, .btn:focus-visible { background: var(--accent-hover); }
+.btn:focus-visible { outline: 3px solid #000; outline-offset: 2px; }
+
+/* =========================================================
+   REVIEWS
+   ========================================================= */
+.reviews {
+  overflow: hidden;
+  padding-top: 0;
+  text-align: center;
+}
+.reviews::before {
+  content: "";
+  display: block;
+  width: min(18rem, 70%);
+  margin: 0 auto clamp(1.5rem, 4vw, 2.5rem);
+  border-top: 2px dotted rgba(17, 17, 17, 0.25);
+}
+.review-viewport { overflow: hidden; }
+.review-track {
+  display: flex;
+  transition: transform 0.65s ease;
+}
+.review {
+  flex: 0 0 100%;
+  padding: 0 var(--pad-x);
+}
+.review-stars {
+  margin-bottom: 0.75rem;
+  color: var(--accent);
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  letter-spacing: 0.12em;
+  line-height: 1;
+}
+.review-attribution {
+  margin: 0 auto 0.35rem;
+  color: var(--accent);
+  font-size: clamp(1rem, 2.4vw, 1.25rem);
+  font-weight: 700;
+}
+.review-text {
+  max-width: 52rem;
+  margin: 0 auto;
+  font-size: clamp(1.45rem, 3.5vw, 2rem);
+  font-weight: 700;
+  line-height: 1.05;
+}
+.review-dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.55rem;
+  margin-top: 1.5rem;
+}
+.review-dot {
+  width: 0.65rem;
+  height: 0.65rem;
+  border: 0;
+  border-radius: 50%;
+  padding: 0;
+  background: rgba(220, 20, 60, 0.3);
+  cursor: pointer;
+}
+.review-dot[aria-current="true"] { background: var(--accent); }
+.review-dot:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+/* =========================================================
+   FEATURES  (remove the whole <section class="features"> to delete)
+   ========================================================= */
+.features { background: var(--bg); }
+.features { padding-bottom: 0; }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr));
+  gap: clamp(1rem, 3vw, 2rem);
+}
+.card {
+  background: var(--bg);
+  border: 1px solid #eee;
+  border-radius: var(--radius);
+  padding: 1.5rem;
+}
+.card h3 { margin: 0 0 0.5rem; font-size: 1.4rem; }
+.card p  { margin: 0; color: var(--muted); font-size: 1.15rem; }
+.card p + p { margin-top: 1rem; }
+.card-more {
+  display: inline-block;
+  margin-top: 0.75rem;
+  color: var(--accent);
+  font-weight: 700;
+}
+.strategy-graphic {
+  width: 100%;
+  padding: 0 var(--pad-x) 1rem;
+  background: var(--bg);
+}
+.strategy-graphic img {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* =========================================================
+   WORK LOGOS
+   ========================================================= */
+.work-showcase {
+  padding-top: 0;
+}
+.work-card {
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+  background: transparent;
+  text-align: center;
+}
+.work-heading {
+  margin: 0;
+  color: var(--accent);
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  line-height: 1;
+  text-align: left;
+}
+.brand-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  align-items: center;
+  gap: clamp(0.65rem, 1.5vw, 1rem);
+  margin-top: 1.75rem;
+}
+.brand-logo {
+  display: grid;
+  min-height: 122px;
+  place-items: center;
+  border: 1px solid rgba(17, 17, 17, 0.14);
+  border-radius: 0;
+  padding: 0.55rem;
+  background: #fff;
+}
+.brand-logo[hidden] {
+  display: none;
+}
+.brand-logo img {
+  width: 100%;
+  height: 96px;
+  max-width: 100%;
+  object-fit: contain;
+}
+.brand-logo img[src$="payexpo.png"],
+.brand-logo img[src$="vedra-asset-management.png"],
+.brand-logo img[src$="zeiss.png"],
+.brand-logo img[src$="imex.png"],
+.brand-logo img[src$="imo.png"] {
+  height: 108px;
+}
+.brand-logo img[src$="beaufort-logo.jpg"],
+.brand-logo img[src$="ambrosetti.png"],
+.brand-logo img[src$="simplyhealth.png"],
+.brand-logo img[src$="fox-sports.png"],
+.brand-logo img[src$="maritim-hotels.png"],
+.brand-logo img[src$="prepay-solutions.webp"],
+.brand-logo img[src$="bites.png"],
+.brand-logo img[src$="teleperformance.png"],
+.brand-logo img[src$="uhuru-design.png"],
+.brand-logo img[src$="everything-environmental.jpeg"],
+.brand-logo img[src$="ad-finem.png"],
+.brand-logo img[src$="signavio.png"],
+.brand-logo img[src$="saudi-exhibition-convention-bureau.png"],
+.brand-logo img[src$="world-of-learning.png"] {
+  height: 86px;
+}
+.brand-logo img[src$="central-working.png"] {
+  height: 112px;
+}
+.experience-toggle {
+  display: table;
+  margin: 2rem auto 0;
+  border: 1px solid var(--ink);
+  padding: 0.75rem 1.4rem;
+  color: var(--ink);
+  background: transparent;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+.experience-toggle:hover,
+.experience-toggle:focus-visible {
+  color: #fff;
+  background: var(--accent);
+  border-color: var(--accent);
+}
+.experience-toggle:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
+.brand-empty {
+  margin: 1.5rem 0 0;
+  color: var(--muted);
+  font-style: italic;
+}
+.case-studies-card {
+  margin-top: 0;
+  padding: 0;
+  background: transparent;
+}
+.case-studies-heading {
+  margin: 0;
+  color: var(--accent);
+  font-size: clamp(2rem, 5vw, 3.3rem);
+  line-height: 1;
+  text-align: center;
+}
+.case-studies-intro {
+  margin: 0.55rem 0 0;
+  color: var(--muted);
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
+  text-align: center;
+}
+.case-studies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr));
+  gap: clamp(0.75rem, 2vw, 1.25rem);
+  margin-top: 1.75rem;
+}
+.case-study {
+  position: relative;
+  min-height: 230px;
+  overflow: hidden;
+  border-radius: 22px;
+  background: var(--bg);
+}
+.case-study img {
+  width: 100%;
+  height: 100%;
+  min-height: 230px;
+  object-fit: cover;
+  transition: transform 0.25s ease;
+}
+.case-study:hover img,
+.case-study:focus-visible img {
+  transform: scale(1.04);
+}
+.case-study-label {
+  position: absolute;
+  inset: auto 0 0;
+  padding: 1rem;
+  color: #fff;
+  background: linear-gradient(transparent, rgba(17, 17, 17, 0.86));
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.05;
+}
+.case-study:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
+.case-studies-empty {
+  margin: 1.5rem 0 0;
+  color: var(--muted);
+  font-style: italic;
+  text-align: center;
+}
+
+/* =========================================================
+   INSIGHTS
+   ========================================================= */
+.insights {
+  background: var(--bg);
+  color: var(--ink);
+}
+.insights-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.insights-heading {
+  margin: 0;
+  color: var(--accent);
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  line-height: 1;
+}
+.insights-pill {
+  display: inline-block;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  padding: 0.65rem 1rem;
+  color: var(--accent);
+  background: transparent;
+  font: inherit;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+}
+.insights-card {
+  border: 1px solid rgba(17, 17, 17, 0.12);
+  border-radius: var(--radius);
+  padding: clamp(1.25rem, 4vw, 2rem);
+  color: var(--ink);
+  background: #fff;
+}
+.insights-list {
+  display: grid;
+  gap: 1rem;
+}
+.insights-card h3 {
+  margin: 0 0 0.6rem;
+  font-size: clamp(1.4rem, 3vw, 2rem);
+}
+.insights-card p {
+  max-width: 62rem;
+  margin: 0;
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+.insights-more {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: 1rem;
+  border: 0;
+  padding: 0;
+  color: var(--accent);
+  background: transparent;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+.insights-more:hover,
+.insights-more:focus-visible { text-decoration: underline; }
+.insights-more::after {
+  content: "\25BE";
+  display: inline-block;
+  font-size: 0.85em;
+  transition: transform 0.2s ease;
+}
+.insights-more[aria-expanded="true"]::after { transform: rotate(180deg); }
+.insights-expanded {
+  margin-top: 0.8rem !important;
+  padding-top: 0.8rem;
+  border-top: 1px solid rgba(17, 17, 17, 0.15);
+  white-space: pre-line;
+}
+.insights-meta {
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid rgba(17, 17, 17, 0.15);
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+/* =========================================================
+   FOOTER  (crimson, full width)
+   ========================================================= */
+.site-footer {
+  width: 100%;
+  background: var(--footer-bg);
+  color: var(--footer-ink);
+  margin-top: auto;            /* pin to bottom on short pages */
+  padding: clamp(2rem, 5vw, 3rem) 0;
+}
+.site-footer a { color: var(--footer-ink); text-decoration: underline; }
+.contact-quote {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-bottom: clamp(1.75rem, 4vw, 3rem);
+}
+.quote-mark {
+  color: rgba(255, 255, 255, 0.92);
+  font-family: var(--font);
+  font-size: clamp(4rem, 10vw, 7rem);
+  font-weight: 700;
+  line-height: 0.45;
+}
+.quote-close {
+  align-self: flex-end;
+}
+.contact-heading {
+  max-width: 48rem;
+  margin: 0;
+  color: #fff;
+  font-size: clamp(2.8rem, 7vw, 5.8rem);
+  font-weight: 400;
+  letter-spacing: -0.045em;
+  line-height: 0.98;
+}
+.contact-form {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem 1.5rem;
+  margin-top: 1.5rem;
+}
+.form-field {
+  display: grid;
+  gap: 0.4rem;
+}
+.honeypot-field {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.form-field-full { grid-column: 1 / -1; }
+.form-field label,
+.contact-method legend {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+.form-field input:not(.captcha-answer):not([type="radio"]),
+.form-field select,
+.form-field textarea {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 6px;
+  padding: 0.8rem 0.9rem;
+  color: var(--ink);
+  background: #fff;
+  font: inherit;
+}
+.form-field textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+.phone-row {
+  display: grid;
+  grid-template-columns: minmax(5.5rem, 0.35fr) minmax(0, 1fr);
+  gap: 0.6rem;
+}
+.captcha-field {
+  grid-column: 1 / -1;
+  align-self: start;
+}
+.captcha-row {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.85rem;
+}
+.captcha-question {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: max-content;
+  min-width: 4.6rem;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 6px;
+  padding: 0.8rem 0.9rem;
+  background: rgba(255, 255, 255, 0.12);
+  font-weight: 700;
+  line-height: 1.2;
+}
+.captcha-error {
+  margin: 0;
+  color: #fff;
+  font-weight: 700;
+}
+.captcha-answer,
+#captcha-answer {
+  flex: 0 0 calc(2ch + 0.9rem) !important;
+  inline-size: calc(2ch + 0.9rem) !important;
+  width: calc(2ch + 0.9rem) !important;
+  min-inline-size: calc(2ch + 0.9rem) !important;
+  max-inline-size: calc(2ch + 0.9rem) !important;
+  min-width: calc(2ch + 0.9rem) !important;
+  max-width: calc(2ch + 0.9rem) !important;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 6px;
+  padding: 0.8rem 0.35rem;
+  color: var(--ink);
+  background: #fff;
+  font: inherit;
+  text-align: center;
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
+.captcha-answer::-webkit-outer-spin-button,
+.captcha-answer::-webkit-inner-spin-button,
+#captcha-answer::-webkit-outer-spin-button,
+#captcha-answer::-webkit-inner-spin-button,
+input[name="security-check"]::-webkit-outer-spin-button,
+input[name="security-check"]::-webkit-inner-spin-button {
+  margin: 0;
+  appearance: none !important;
+  -webkit-appearance: none !important;
+}
+.form-field input:focus,
+.form-field select:focus,
+.form-field textarea:focus {
+  outline: 3px solid #fff;
+  outline-offset: 2px;
+}
+.contact-actions {
+  display: flex;
+  align-items: center;
+  flex: 1 1 18rem;
+  justify-content: flex-start;
+  gap: 0.85rem;
+  min-width: min(100%, 18rem);
+}
+.contact-method {
+  display: grid;
+  align-items: start;
+  justify-content: center;
+  gap: 0.8rem;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.contact-method legend {
+  width: auto;
+  margin: 0;
+  line-height: 1.15;
+  transform: translateY(-0.8rem);
+}
+.contact-method-options {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.95rem;
+  transform: translateX(-0.8rem);
+}
+.contact-method label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  line-height: 1;
+  white-space: nowrap;
+}
+.contact-method label + label {
+  transform: translateX(0.8rem);
+}
+.contact-method input[type="radio"] {
+  width: 0.85rem;
+  min-width: 0.85rem;
+  max-width: 0.85rem;
+  height: 0.85rem;
+  min-height: 0.85rem;
+  max-height: 0.85rem;
+  flex: 0 0 auto;
+  inline-size: 0.85rem;
+  block-size: 0.85rem;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  accent-color: #000;
+  transform: translateY(0.02em);
+}
+.contact-submit {
+  justify-self: center;
+  border: 2px solid #fff;
+  border-radius: 999px;
+  padding: 0.75rem 1.5rem;
+  color: var(--footer-bg);
+  background: #fff;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+.contact-submit:hover,
+.contact-submit:focus-visible {
+  color: #fff;
+  background: transparent;
+}
+.contact-submit:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 3px;
+}
+.contact-submit:disabled {
+  cursor: wait;
+  opacity: 0.7;
+}
+.form-status {
+  grid-column: 1 / -1;
+  min-height: 1.4rem;
+  margin: 0;
+  font-weight: 700;
+  text-align: center;
+}
+.footer-meta {
+  margin: 2rem 0 0;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.35);
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+/* =========================================================
+   THANK YOU PAGE
+   ========================================================= */
+.thank-you-page {
+  flex: 1;
+  display: flex;
+}
+.thank-you-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  background: var(--bg);
+}
+.thank-you-card {
+  padding-top: clamp(4rem, 10vw, 8rem);
+  padding-bottom: clamp(4rem, 10vw, 8rem);
+}
+.thank-you-kicker {
+  margin: 0 0 0.8rem;
+  color: var(--accent);
+  font-size: clamp(1.25rem, 3vw, 1.75rem);
+  font-weight: 700;
+}
+.thank-you-card h1 {
+  margin: 0;
+  color: var(--ink);
+  font-size: clamp(4rem, 14vw, 9rem);
+  line-height: 0.9;
+  letter-spacing: -0.06em;
+}
+.thank-you-card p:not(.thank-you-kicker) {
+  max-width: 34rem;
+  margin: 1.5rem 0 2rem;
+  color: var(--ink);
+  font-size: clamp(1.35rem, 3vw, 2rem);
+  line-height: 1.25;
+}
+
+/* =========================================================
+   MOBILE TWEAKS
+   ========================================================= */
+@media (max-width: 600px) {
+  .site-header .container { justify-content: center; text-align: center; }
+  .nav { justify-content: center; width: 100%; }
+  .hero-details { grid-template-columns: 1fr; }
+  .brand-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .insights-header { align-items: flex-start; flex-direction: column; }
+  .contact-form { grid-template-columns: 1fr; }
+  .form-field-full { grid-column: auto; }
+  .phone-row { grid-template-columns: 1fr; }
+  .captcha-field,
+  .contact-actions { grid-column: auto; }
+  .contact-actions {
+    flex: 1 1 100%;
+    justify-content: center;
+    min-width: 100%;
+  }
+  .contact-method,
+  .contact-method-options { justify-content: center; }
+}
+
+@media (max-width: 430px) {
+  .contact-actions {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { transition: none !important; animation: none !important; }
+}
+
+
+===== site-content.js =====
+
+/*
+  HOLLYCROFT GLOBAL WEBSITE COPY
+  ------------------------------
+  Edit wording in this file when using GoDaddy.
+  Keep the quotation marks and commas that surround each value.
+  Leave an Insights field as "" when you want that field to stay blank.
+*/
+
+window.HOLLYCROFT_CONTENT = Object.freeze({
+  brandName: "Hollycroft Global",
+  legalName: "Hollycroft Global LLC",
+  pageTitle: "Hollycroft Global",
+  pageDescription: "Hollycroft Global is a marketing agency partnering with brands shaping the future.",
+
+  nav: {
+    about: "ABOUT",
+    work: "WORK",
+    insights: "INSIGHTS",
+    contact: "CONTACT"
+  },
+
+  buttons: {
+    getInTouch: "Get in touch",
+    forMore: "For more",
+    viewExperience: "VIEW EXPERIENCE",
+    hideExperience: "HIDE EXPERIENCE",
+    viewAllInsights: "VIEW ALL INSIGHTS",
+    hideExtraInsights: "HIDE EXTRA INSIGHTS",
+    readMore: "READ MORE",
+    readLess: "READ LESS",
+    submit: "Say Hello"
+  },
+
+  hero: {
+    lead: "We're a marketing agency partnering with brands shaping the future.",
+    detailOne: "We develop and execute integrated strategies across PR, marketing, paid media, SEO, AEO, GEO, generative AI, and digital communications that help brands build influence, accelerate growth, and stay ahead of change. Our team is focused on the industries driving tomorrow, including financial services, banking, digital assets, technology, travel, events, and consumer brands.",
+    detailTwo: "Hollycroft Global brings together decades of experience across media, communications, marketing, and data science. Combining strategic thinking with data-driven intelligence and emerging technologies, we help organisations turn ambition into measurable impact."
+  },
+
+  reviews: [
+    {
+      attribution: "COO, Fox Sports",
+      quote: "A trusted and valued partner."
+    },
+    {
+      attribution: "CEO, Bites Baking School",
+      quote: "Hollycroft Global elevated our brand exponentially through smart strategy and flawless execution."
+    },
+    {
+      attribution: "Global Sales Director, Maritim Hotels",
+      quote: "The gold standard in strategic communication."
+    },
+    {
+      attribution: "CMO, Uhuru Design",
+      quote: "They opened doors we couldn't have opened on our own."
+    },
+    {
+      attribution: "Founder, Celebration Creation",
+      quote: "We've worked with several agencies. Hollycroft Global is the best by far."
+    }
+  ],
+
+  cards: [
+    {
+      title: "Who We Are",
+      copy: "At Hollycroft Global, we believe meaningful growth begins with understanding. Our clients know us for our strategic thinking, straightforward advice, and unwavering commitment to delivering exceptional results. We combine expertise across marketing, public relations, paid media, SEO, AEO, GEO, generative AI, and communications with data-driven decision-making..."
+    },
+    {
+      title: "Who We Work With",
+      copy: "We partner with ambitious organisations across a broad range of industries, from corporate and consumer brands to banking and financial services, technology, digital assets, travel and tourism, events, exhibitions, and lifestyle. Combining deep sector expertise with data-driven intelligence, generative AI, advanced analytics, and emerging technologies, we help clients navigate complexity, anticipate change, and uncover new opportunities for growth. Operating at the forefront of marketing, communications, and digital discovery, we ensure our clients remain visible, influential, and positioned..."
+    },
+    {
+      title: "What We Do",
+      copy: "We design and deliver integrated marketing, communications, and reputation strategies that drive measurable business outcomes. Combining public relations, paid media, content, search, AEO, GEO, generative AI, and data-driven insights, we help organisations build visibility, shape perception, engage audiences, and accelerate growth across both B2B and consumer markets."
+    }
+  ],
+
+  /*
+    WORK LOGOS
+    ----------
+    1. Upload each brand icon into the same website folder.
+    2. Add one object per logo with image, alt, and url fields.
+    3. The first 12 logos are always visible. Logo 13 onward appears after clicking VIEW EXPERIENCE.
+    4. Leave url as "" when the logo should not be clickable.
+  */
+  work: {
+    heading: "Work",
+    visibleLogoLimit: 12,
+    logos: [
+      { image: "logos/beaufort-logo.jpg", alt: "Beaufort", url: "" },
+      { image: "logos/calm-emblem.png", alt: "Calm", url: "" },
+      { image: "logos/fox-sports.png", alt: "Fox Sports", url: "" },
+      { image: "logos/vedra-asset-management.png", alt: "Vedra Asset Management", url: "" },
+      { image: "logos/imo.png", alt: "International Maritime Organization", url: "" },
+      { image: "logos/ambrosetti.png", alt: "The European House Ambrosetti", url: "" },
+      { image: "logos/imex.png", alt: "IMEX", url: "" },
+      { image: "logos/maritim-hotels.png", alt: "Maritim Hotels", url: "" },
+      { image: "logos/payexpo.png", alt: "PayExpo", url: "" },
+      { image: "logos/simplyhealth.png", alt: "Simplyhealth", url: "" },
+      { image: "logos/zeiss.png", alt: "ZEISS", url: "" },
+      { image: "logos/prepay-solutions.webp", alt: "Prepay Solutions", url: "" },
+      { image: "logos/setco.png", alt: "SETCO", url: "" },
+      { image: "logos/everything-environmental.jpeg", alt: "Everything Environmental", url: "" },
+      { image: "logos/ad-finem.png", alt: "Ad Finem", url: "" },
+      { image: "logos/bites.png", alt: "Bites", url: "" },
+      { image: "logos/central-working.png", alt: "Central Working", url: "" },
+      { image: "logos/financial-skills-partnership.jpg", alt: "Financial Skills Partnership", url: "" },
+      { image: "logos/adopt-a-grandparent.jpeg", alt: "Adopt a Grandparent", url: "" },
+      { image: "logos/saudi-exhibition-convention-bureau.png", alt: "Saudi Exhibition and Convention Bureau", url: "" },
+      { image: "logos/signavio.png", alt: "Signavio", url: "" },
+      { image: "logos/teleperformance.png", alt: "Teleperformance", url: "" },
+      { image: "logos/uhuru-design.png", alt: "Uhuru Design", url: "" },
+      { image: "logos/world-of-learning.png", alt: "World of Learning", url: "" }
+    ]
+  },
+
+  /*
+    CASE STUDY THUMBNAILS
+    ---------------------
+    1. Upload each thumbnail and case-study HTML page into the same website folder.
+    2. Add one object per project with image, alt, title, and page fields.
+    3. Use a simple local .html filename for page. External links are intentionally blocked.
+  */
+  caseStudies: {
+    heading: "Case studies",
+    intro: "Selected work and measurable outcomes.",
+    items: [
+      // Add case-study entries here.
+    ]
+  },
+
+  insights: {
+    heading: "Latest Insights, Wins & Opinions",
+    // Leave every field blank to hide an article slot until it is ready to publish.
+    articles: [
+      {
+        title: "The New Frontier of Marketing Is Perception Infrastructure",
+        preview: "For much of the past two decades, marketing has been defined by visibility. Organisations invested heavily in search rankings, social media reach, media coverage, advertising impressions, and website traffic, all with the same objective: to be seen by more people.",
+        expanded: `Visibility remains important, but it is no longer the primary competitive advantage many businesses believe it to be.
+
+Today, organisations operate in an environment where customers, investors, employees, journalists, and increasingly artificial intelligence systems are constantly evaluating credibility. In this new landscape, success is determined not simply by whether people can find you, but by what they discover when they do.
+
+This shift is creating a new strategic imperative for business leaders. The companies gaining a meaningful advantage are no longer focused solely on marketing performance. They are investing in what might be described as perception infrastructure: the collection of signals, narratives, relationships, and trust markers that shape how an organisation is understood by the market.
+
+The distinction is subtle but significant.
+
+Historically, marketing, public relations, search, investor relations, and corporate communications have been treated as separate disciplines. Different teams managed different channels, often working towards different objectives and measured against different metrics. While this approach reflected the realities of an earlier media landscape, it is becoming increasingly disconnected from how modern audiences actually form opinions.
+
+Consider the journey of a prospective client. They may first encounter a company through a media article, search for it online, visit its website, review its leadership team's LinkedIn profiles, read customer feedback, and perhaps even ask an AI assistant for information. To the organisation, these interactions may sit across multiple departments and communication functions. To the individual, however, they form a single impression.
+
+That impression increasingly determines commercial outcomes.
+
+Artificial intelligence is accelerating this trend. Search engines are placing greater emphasis on authority and trust. AI-powered discovery tools are prioritising credible sources. Journalists continue to rely on recognised experts, while investors and prospective employees often evaluate reputation long before engaging directly with a business.
+
+In this environment, reputation is no longer simply a communications concern. It is becoming a strategic asset that influences discoverability, credibility, recruitment, partnership opportunities, and ultimately growth.
+
+This helps explain why many organisations struggle despite investing heavily in content production. Producing more content does not necessarily create more influence. Publishing more frequently does not automatically build authority. Visibility without credibility can generate attention, but it rarely creates lasting trust.
+
+The organisations outperforming their competitors are taking a more integrated approach. Rather than viewing communications as a collection of individual activities, they are aligning marketing, public relations, thought leadership, executive visibility, search strategy, stakeholder engagement, and reputation management around a coherent narrative.
+
+They understand that every interview, article, presentation, customer interaction, and search result contributes to a broader perception of who they are and what they represent.
+
+Ultimately, the future of marketing will belong to organisations that recognise this change. The challenge is no longer simply to attract attention. It is to build authority, credibility, and trust across an increasingly complex information ecosystem.
+
+In the years ahead, the most successful organisations will not necessarily be the loudest voices in the market. They will be the ones that invest deliberately in how they are understood.
+
+Because in an age defined by information abundance, perception is no longer merely an outcome of communication. It has become an essential form of business infrastructure.`,
+        meta: ""
+      },
+      { title: "", preview: "", expanded: "", meta: "" },
+      { title: "", preview: "", expanded: "", meta: "" },
+      { title: "", preview: "", expanded: "", meta: "" },
+      { title: "", preview: "", expanded: "", meta: "" }
+    ]
+  },
+
+  contact: {
+    headingLineOne: "Where insight",
+    headingLineTwo: "becomes impact",
+    firstNameLabel: "First name*",
+    firstNamePlaceholder: "Your first name",
+    lastNameLabel: "Last name*",
+    lastNamePlaceholder: "Your last name",
+    emailLabel: "Email*",
+    emailPlaceholder: "example@gmail.com",
+    phoneLabel: "Phone number*",
+    phonePlaceholder: "+1 310 555 1212",
+    phoneCountryLabel: "Country",
+    phoneUsaOption: "USA",
+    phoneUkOption: "UK",
+    phoneUsaPlaceholder: "+1 310 555 1212",
+    phoneUkPlaceholder: "+44 20 7946 0958",
+    messageLabel: "How can we help?*",
+    messagePlaceholder: "Tell us about your idea or project.",
+    captchaLabel: "Security check*",
+    captchaPlaceholder: "00",
+    captchaError: "Please answer the security check correctly.",
+    sendingMessage: "Sending...",
+    successMessage: "Thank you. Your message has been sent.",
+    errorMessage: "Something went wrong. Please email hello@hollycroftglobal.com.",
+    endpointErrorMessage: "The Netlify form is not responding. Please confirm the site has been deployed on Netlify with Forms enabled.",
+    localPreviewMessage: "Local preview cannot submit to Netlify Forms. Upload the site to Netlify and test the published page.",
+    preferredMethodLabel: "Your preferred contact method",
+    emailOption: "Email",
+    callOption: "Call"
+  }
+});
+
+
+===== app.js =====
+
+"use strict";
+
+(() => {
+  const content = window.HOLLYCROFT_CONTENT;
+  if (!content) return;
+
+  const getValue = (path) => path.split(".").reduce((value, key) => value?.[key], content);
+  const setText = (element, value) => {
+    if (element && typeof value === "string") element.textContent = value;
+  };
+  const labels = {
+    viewExperience: content.buttons?.viewExperience || "VIEW EXPERIENCE",
+    hideExperience: content.buttons?.hideExperience || "HIDE EXPERIENCE",
+    viewAllInsights: content.buttons?.viewAllInsights || "VIEW ALL INSIGHTS",
+    hideExtraInsights: content.buttons?.hideExtraInsights || "HIDE EXTRA INSIGHTS",
+    readMore: content.buttons?.readMore || "READ MORE",
+    readLess: content.buttons?.readLess || "READ LESS"
+  };
+
+  if (typeof content.pageTitle === "string") document.title = content.pageTitle;
+  document.querySelectorAll("[data-meta-content]").forEach((element) => {
+    const value = getValue(element.dataset.metaContent);
+    if (typeof value === "string") element.setAttribute("content", value);
+  });
+
+  document.querySelectorAll("[data-content]").forEach((element) => {
+    setText(element, getValue(element.dataset.content));
+  });
+
+  document.querySelectorAll("[data-placeholder-content]").forEach((element) => {
+    const value = getValue(element.dataset.placeholderContent);
+    if (typeof value === "string") element.setAttribute("placeholder", value);
+  });
+
+  document.querySelectorAll("[data-review-index]").forEach((article) => {
+    const review = content.reviews[Number(article.dataset.reviewIndex)];
+    if (!review) return;
+    setText(article.querySelector('[data-review-field="attribution"]'), review.attribution);
+    setText(article.querySelector('[data-review-field="quote"]'), `“${review.quote}”`);
+  });
+
+  document.querySelectorAll("[data-card-index]").forEach((card) => {
+    const cardContent = content.cards[Number(card.dataset.cardIndex)];
+    if (!cardContent) return;
+    setText(card.querySelector('[data-card-field="title"]'), cardContent.title);
+    setText(card.querySelector('[data-card-field="copy"]'), cardContent.copy);
+  });
+
+  const brandGrid = document.getElementById("brand-grid");
+  const brandEmpty = document.getElementById("brand-empty");
+  const experienceToggle = document.getElementById("experience-toggle");
+  const safeImageName = /^[a-zA-Z0-9._/-]+$/;
+  const visibleLogoLimit = Number.isInteger(content.work?.visibleLogoLimit) ? content.work.visibleLogoLimit : 12;
+
+  if (brandGrid && Array.isArray(content.work?.logos)) {
+    content.work.logos.forEach((logo, index) => {
+      if (!logo || !safeImageName.test(logo.image || "")) return;
+
+      const wrapper = logo.url?.startsWith("https://")
+        ? document.createElement("a")
+        : document.createElement("div");
+      wrapper.className = "brand-logo";
+      const isCollapsibleLogo = index >= visibleLogoLimit;
+      wrapper.hidden = isCollapsibleLogo;
+      if (isCollapsibleLogo) wrapper.dataset.collapsibleLogo = "true";
+
+      if (wrapper instanceof HTMLAnchorElement) {
+        wrapper.href = logo.url;
+        wrapper.target = "_blank";
+        wrapper.rel = "noopener noreferrer";
+      }
+
+      const image = document.createElement("img");
+      image.src = logo.image;
+      image.alt = logo.alt || "";
+      image.loading = "lazy";
+      image.decoding = "async";
+      wrapper.append(image);
+      brandGrid.append(wrapper);
+    });
+
+    if (brandEmpty) {
+      brandEmpty.hidden = brandGrid.children.length > 0;
+    }
+
+    const hiddenLogos = [...brandGrid.querySelectorAll('[data-collapsible-logo="true"]')];
+    if (experienceToggle && hiddenLogos.length) {
+      experienceToggle.hidden = false;
+      experienceToggle.addEventListener("click", () => {
+        const isOpen = experienceToggle.getAttribute("aria-expanded") === "true";
+        experienceToggle.setAttribute("aria-expanded", isOpen ? "false" : "true");
+        experienceToggle.textContent = isOpen ? labels.viewExperience : labels.hideExperience;
+        hiddenLogos.forEach((logo) => {
+          logo.hidden = isOpen;
+        });
+      });
+    }
+  }
+
+  const caseStudiesGrid = document.getElementById("case-studies-grid");
+  const caseStudiesEmpty = document.getElementById("case-studies-empty");
+  const caseStudiesCard = document.querySelector(".case-studies-card");
+  const safeLocalPage = /^[a-zA-Z0-9._/-]+\.html$/;
+
+  if (caseStudiesGrid && Array.isArray(content.caseStudies?.items)) {
+    content.caseStudies.items.forEach((item) => {
+      if (!item || !safeImageName.test(item.image || "") || !safeLocalPage.test(item.page || "")) return;
+
+      const link = document.createElement("a");
+      link.className = "case-study";
+      link.href = item.page;
+
+      const image = document.createElement("img");
+      image.src = item.image;
+      image.alt = item.alt || "";
+      image.loading = "lazy";
+      image.decoding = "async";
+
+      const label = document.createElement("span");
+      label.className = "case-study-label";
+      label.textContent = item.title || "View case study";
+
+      link.append(image, label);
+      caseStudiesGrid.append(link);
+    });
+
+    if (caseStudiesEmpty) {
+      caseStudiesEmpty.hidden = caseStudiesGrid.children.length > 0;
+    }
+    if (caseStudiesCard) {
+      caseStudiesCard.hidden = caseStudiesGrid.children.length === 0;
+    }
+  }
+
+  const insightsSection = document.getElementById("insights");
+  const insightsToggle = document.querySelector(".insights-toggle");
+  const insightArticles = [...document.querySelectorAll("[data-insight-index]")];
+  const hasInsightCopy = (insight) => Boolean(
+    insight
+    && ["title", "preview", "expanded", "meta"].some((field) => typeof insight[field] === "string" && insight[field].trim())
+  );
+  let visibleInsightCount = 0;
+
+  insightArticles.forEach((article) => {
+    const insight = content.insights.articles[Number(article.dataset.insightIndex)];
+    const hasCopy = hasInsightCopy(insight);
+
+    article.hidden = !hasCopy;
+    article.removeAttribute("data-additional-insight");
+    if (!hasCopy) return;
+
+    visibleInsightCount += 1;
+    if (visibleInsightCount > 1) {
+      article.hidden = true;
+      article.dataset.additionalInsight = "true";
+    }
+
+    ["title", "preview", "expanded", "meta"].forEach((field) => {
+      setText(article.querySelector(`[data-insight-field="${field}"]`), insight[field]);
+    });
+
+    const readMore = article.querySelector(".insights-more");
+    readMore.hidden = !(typeof insight.expanded === "string" && insight.expanded.trim());
+    readMore.textContent = labels.readMore;
+  });
+
+  if (insightsSection) {
+    insightsSection.hidden = visibleInsightCount === 0;
+  }
+
+  if (insightsToggle) {
+    insightsToggle.hidden = visibleInsightCount <= 1;
+  }
+
+  setText(document.getElementById("year"), String(new Date().getFullYear()));
+
+  const sectionLinks = [...document.querySelectorAll("[data-section-link]")];
+  const sectionTargets = sectionLinks
+    .map((link) => ({
+      link,
+      target: document.getElementById(link.dataset.sectionLink)
+    }))
+    .filter(({ target }) => target);
+  let scrollFrame;
+
+  const updateActiveSection = () => {
+    const header = document.querySelector(".site-header");
+    const threshold = (header?.offsetHeight || 0) + 24;
+    let activeSection = sectionTargets[0];
+
+    sectionTargets.forEach((section) => {
+      if (section.target.getBoundingClientRect().top <= threshold) {
+        activeSection = section;
+      }
+    });
+
+    sectionTargets.forEach(({ link }) => {
+      if (link === activeSection?.link) {
+        link.setAttribute("aria-current", "location");
+      } else {
+        link.removeAttribute("aria-current");
+      }
+    });
+  };
+
+  const requestSectionUpdate = () => {
+    if (scrollFrame) return;
+    scrollFrame = requestAnimationFrame(() => {
+      scrollFrame = undefined;
+      updateActiveSection();
+    });
+  };
+
+  window.addEventListener("scroll", requestSectionUpdate, { passive: true });
+  window.addEventListener("resize", requestSectionUpdate);
+  updateActiveSection();
+
+  const reviewTrack = document.querySelector(".review-track");
+  const reviewDots = [...document.querySelectorAll(".review-dot")];
+  const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  let activeReview = 0;
+  let reviewTimer;
+
+  const showReview = (index) => {
+    if (!reviewTrack || !reviewDots.length) return;
+    activeReview = index;
+    reviewTrack.style.transform = `translateX(-${index * 100}%)`;
+    reviewDots.forEach((dot, dotIndex) => {
+      dot.setAttribute("aria-current", dotIndex === index ? "true" : "false");
+    });
+  };
+
+  const startReviewTimer = () => {
+    if (reducedMotion || !reviewDots.length) return;
+    clearInterval(reviewTimer);
+    reviewTimer = setInterval(() => {
+      showReview((activeReview + 1) % reviewDots.length);
+    }, 5000);
+  };
+
+  reviewDots.forEach((dot, index) => {
+    dot.addEventListener("click", () => {
+      showReview(index);
+      startReviewTimer();
+    });
+  });
+
+  startReviewTimer();
+
+  document.querySelectorAll(".insights-more").forEach((button) => {
+    button.addEventListener("click", () => {
+      const targetId = button.getAttribute("aria-controls");
+      const expandedContent = targetId ? document.getElementById(targetId) : null;
+      if (!expandedContent) return;
+
+      const isOpen = button.getAttribute("aria-expanded") === "true";
+      button.setAttribute("aria-expanded", isOpen ? "false" : "true");
+      button.textContent = isOpen ? labels.readMore : labels.readLess;
+      expandedContent.hidden = isOpen;
+    });
+  });
+
+  const contactForm = document.querySelector(".contact-form");
+  const formStatus = document.getElementById("form-status");
+  const submitButton = document.getElementById("contact-submit");
+  const honeypotInput = document.getElementById("website");
+  const phoneCountryInput = document.getElementById("phone-country");
+  const phoneInput = document.getElementById("phone");
+  const phoneLabel = document.querySelector('label[for="phone"]');
+  const contactMethodInputs = [...document.querySelectorAll('input[name="preferred-contact-method"]')];
+  const captchaQuestion = document.getElementById("captcha-question");
+  const captchaAnswer = document.getElementById("captcha-answer");
+  const captchaError = document.getElementById("captcha-error");
+  let captchaTotal = 0;
+
+  const lockCaptchaField = () => {
+    if (!captchaAnswer) return;
+    captchaAnswer.type = "tel";
+    captchaAnswer.inputMode = "numeric";
+    captchaAnswer.maxLength = 2;
+    captchaAnswer.size = 2;
+    captchaAnswer.pattern = "[0-9]{1,2}";
+    captchaAnswer.classList.add("captcha-answer");
+    captchaAnswer.style.width = "calc(2ch + 0.9rem)";
+    captchaAnswer.style.minWidth = "calc(2ch + 0.9rem)";
+    captchaAnswer.style.maxWidth = "calc(2ch + 0.9rem)";
+  };
+
+  const updateContactMethodRequirements = () => {
+    if (!phoneInput || !phoneLabel) return;
+    phoneInput.required = true;
+    phoneInput.setCustomValidity("");
+    phoneLabel.textContent = content.contact?.phoneLabel || "Phone number*";
+  };
+
+  const updatePhoneFormat = () => {
+    if (!phoneInput || !phoneCountryInput) return;
+    const isUk = phoneCountryInput.value === "UK";
+    phoneInput.placeholder = isUk
+      ? content.contact?.phoneUkPlaceholder || "+44 20 7946 0958"
+      : content.contact?.phoneUsaPlaceholder || "+1 310 555 1212";
+    phoneInput.pattern = isUk
+      ? "^(?:\\+44\\s?\\d{2,4}|0\\d{2,4})\\s?\\d{3,4}\\s?\\d{3,4}$"
+      : "^(?:\\+1\\s?)?(?:\\(\\d{3}\\)|\\d{3})[\\s.-]?\\d{3}[\\s.-]?\\d{4}$";
+    phoneInput.title = isUk
+      ? "Enter a UK phone number, for example +44 20 7946 0958."
+      : "Enter a USA phone number, for example +1 310 555 1212.";
+  };
+
+  contactMethodInputs.forEach((input) => {
+    input.addEventListener("change", updateContactMethodRequirements);
+  });
+  phoneCountryInput?.addEventListener("change", updatePhoneFormat);
+
+  updateContactMethodRequirements();
+  updatePhoneFormat();
+  lockCaptchaField();
+
+  const setFormStatus = (message) => {
+    if (formStatus) formStatus.textContent = message || "";
+  };
+
+  const cleanFormValue = (value, maxLength) => String(value || "").trim().slice(0, maxLength);
+
+  const getContactSubmission = () => {
+    const formData = new FormData(contactForm);
+    const submission = new URLSearchParams();
+    submission.set("form-name", "contact");
+    submission.set("first-name", cleanFormValue(formData.get("first-name"), 80));
+    submission.set("last-name", cleanFormValue(formData.get("last-name"), 80));
+    submission.set("email", cleanFormValue(formData.get("email"), 254));
+    submission.set("phone-country", cleanFormValue(formData.get("phone-country"), 20));
+    submission.set("phone", cleanFormValue(formData.get("phone"), 40));
+    submission.set("message", cleanFormValue(formData.get("message"), 5000));
+    submission.set("preferred-contact-method", cleanFormValue(formData.get("preferred-contact-method"), 20));
+    submission.set("security-check", cleanFormValue(formData.get("security-check"), 2));
+    submission.set("website", cleanFormValue(formData.get("website"), 200));
+    return submission;
+  };
+
+  const createCaptcha = () => {
+    if (!captchaQuestion || !captchaAnswer) return;
+    const firstNumber = Math.floor(Math.random() * 8) + 2;
+    const secondNumber = Math.floor(Math.random() * 8) + 2;
+    captchaTotal = firstNumber + secondNumber;
+    captchaQuestion.textContent = `${firstNumber} + ${secondNumber} =`;
+    captchaAnswer.value = "";
+    captchaAnswer.setCustomValidity("");
+    if (captchaError) captchaError.hidden = true;
+  };
+
+  createCaptcha();
+
+  captchaAnswer?.addEventListener("input", () => {
+    lockCaptchaField();
+    captchaAnswer.value = captchaAnswer.value.replace(/\D/g, "").slice(0, 2);
+    captchaAnswer.setCustomValidity("");
+    if (captchaError) captchaError.hidden = true;
+  });
+
+  captchaAnswer?.addEventListener("beforeinput", (event) => {
+    if (event.inputType?.startsWith("delete")) return;
+    const incoming = event.data || "";
+    const selectedLength = captchaAnswer.selectionEnd - captchaAnswer.selectionStart;
+    const nextLength = captchaAnswer.value.length - selectedLength + incoming.length;
+    if (/\D/.test(incoming) || nextLength > 2) {
+      event.preventDefault();
+    }
+  });
+
+  const handleContactSend = async (event) => {
+    event?.preventDefault();
+    if (!contactForm || !captchaAnswer) return;
+    updateContactMethodRequirements();
+
+    if (honeypotInput?.value.trim()) {
+      return;
+    }
+
+    if (!contactForm.checkValidity()) {
+      contactForm.reportValidity();
+      return;
+    }
+
+    const submittedAnswer = Number.parseInt(captchaAnswer.value, 10);
+    const isCorrect = captchaAnswer.value.trim() !== "" && submittedAnswer === captchaTotal;
+
+    if (!isCorrect) {
+      captchaAnswer.setCustomValidity(content.contact?.captchaError || "Please answer the security check correctly.");
+      if (captchaError) captchaError.hidden = false;
+      captchaAnswer.reportValidity();
+      return;
+    }
+
+    captchaAnswer.setCustomValidity("");
+    if (captchaError) captchaError.hidden = true;
+
+    if (window.location.protocol === "file:") {
+      setFormStatus(content.contact?.localPreviewMessage || "Local preview cannot submit to Netlify Forms.");
+      return;
+    }
+
+    const submission = getContactSubmission();
+
+    if (submitButton) submitButton.disabled = true;
+    setFormStatus(content.contact?.sendingMessage || "Sending...");
+
+    try {
+      const response = await fetch(contactForm.getAttribute("action") || "/thank-you.html", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded"
+        },
+        body: submission.toString()
+      });
+
+      if (!response.ok) {
+        throw new Error(content.contact?.endpointErrorMessage || "The Netlify form is not responding.");
+      }
+
+      setFormStatus(content.contact?.successMessage || "Thank you. Your message has been sent.");
+      contactForm.reset();
+      updateContactMethodRequirements();
+      updatePhoneFormat();
+      createCaptcha();
+      window.location.href = contactForm.getAttribute("action") || "/thank-you.html";
+    } catch (error) {
+      const message = error instanceof Error && error.message
+        ? error.message
+        : content.contact?.errorMessage || "Something went wrong. Please email hello@hollycroftglobal.com.";
+      setFormStatus(message);
+    } finally {
+      if (submitButton) submitButton.disabled = false;
+    }
+  };
+
+  submitButton?.addEventListener("click", handleContactSend);
+
+  contactForm?.addEventListener("submit", handleContactSend);
+
+  insightsToggle?.addEventListener("click", () => {
+    const isOpen = insightsToggle.getAttribute("aria-expanded") === "true";
+    const additionalInsights = [...document.querySelectorAll('[data-additional-insight="true"]')];
+    insightsToggle.setAttribute("aria-expanded", isOpen ? "false" : "true");
+    insightsToggle.textContent = isOpen ? labels.viewAllInsights : labels.hideExtraInsights;
+    additionalInsights.forEach((article) => {
+      article.hidden = isOpen;
+    });
+  });
+})();
+
+
+===== _headers =====
+
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; frame-src 'none'; worker-src 'none'; upgrade-insecure-requests
+  Cache-Control: no-cache
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()
+
+/*.css
+  Cache-Control: no-cache
+
+/*.js
+  Cache-Control: no-cache
+
+
+===== .htaccess =====
+
+# Hollycroft Global static-site security headers.
+# Upload this file with the site when the GoDaddy hosting plan supports Apache .htaccess files.
+
+<IfModule mod_headers.c>
+  Header always set Content-Security-Policy "default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; frame-src 'none'; worker-src 'none'; upgrade-insecure-requests"
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "DENY"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+</IfModule>
+
+
+===== DEPLOYMENT NOTES =====
+
+For Netlify, deploy this folder or upload hollycroft-global-offline-code.zip. Keep index.html, thank-you.html, site.css, site-content.js, app.js, _headers, tree-logo.png, strategy-pillars.png, and the logos folder together at the site root.
+The contact form is a Netlify Form named contact. After deployment, submit one test message on the live Netlify URL and then configure email notifications in Netlify Forms.
