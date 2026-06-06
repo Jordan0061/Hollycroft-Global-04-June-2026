@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Replace this with the final live domain before upload.
+Sitemap: https://www.hollycroftglobal.com/sitemap.xml
