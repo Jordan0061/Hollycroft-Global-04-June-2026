@@ -423,7 +423,7 @@
       updateContactMethodRequirements();
       updatePhoneFormat();
       createCaptcha();
-      window.location.href = contactForm.getAttribute("action") || "/thank-you.html";
+      window.location.href = "/thank-you.html";
     } catch (error) {
       const message = error instanceof Error && error.message
         ? error.message
