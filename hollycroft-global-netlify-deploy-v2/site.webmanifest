@@ -1,0 +1,24 @@
+{
+  "name": "Hollycroft Global",
+  "short_name": "Hollycroft",
+  "description": "Hollycroft Global is a marketing agency partnering with brands shaping the future.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f3f1ee",
+  "theme_color": "#f3f1ee",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
