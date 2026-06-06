@@ -1,0 +1,80 @@
+HOLLYCROFT GLOBAL - NETLIFY DEPLOYMENT CHECKLIST
+================================================
+
+Use this package:
+
+hollycroft-global-netlify-deploy-v7.zip
+
+Do not upload older v3, v5, or v6 files.
+
+Critical requirement
+--------------------
+
+The contact form requires a Netlify Function:
+
+/.netlify/functions/contact
+
+After deploying, open this URL on the live Netlify domain:
+
+https://YOUR-DOMAIN/.netlify/functions/contact
+
+It must show:
+
+{
+  "ok": true,
+  "service": "hollycroft-contact",
+  "version": "make-query-v7"
+}
+
+If it does not show that, the function did not deploy and the form cannot work.
+
+Netlify deploy check
+--------------------
+
+In the Netlify deploy summary, confirm that 1 function was deployed.
+
+If the summary says 0 functions, the contact form will not reach Make.
+
+Best deployment method
+----------------------
+
+Use a Git-connected Netlify deploy or Netlify CLI deploy for this version.
+The site is not just static HTML anymore because the contact form needs:
+
+netlify/functions/contact.js
+
+Make setup
+----------
+
+After the v7 site is live and the health check works:
+
+1. Open the Make webhook module.
+2. Click Redetermine data structure.
+3. Submit a fresh form test from the live website.
+4. In Make, map the query string values.
+
+Preferred machine-safe fields:
+
+first_name
+last_name
+email
+phone_number
+message
+preferred_contact_method
+
+Readable backup fields also sent:
+
+First name
+Last name
+Email
+Phone number
+How can we help?
+Preferred contact method
+
+Why this version is different
+-----------------------------
+
+The website does not send directly to Make.
+The browser sends to Netlify.
+Netlify sends to Make with GET query parameters.
+There is no request body for Make to misread as one value.
